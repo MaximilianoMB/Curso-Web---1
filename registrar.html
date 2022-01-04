@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+</head>
+<body>
+    <!-- Aqui usar GET mesmo ao inves de POST -->
+    <span>Container de linha</span>
+    <div>
+        <form mehtod="GET">
+            SEU NOME<input type="text" name="nome"><br><br>
+            SEU INSTA<input type="text" required name="insta" ><br><br>
+            SEU EMAIL<input type="email" required name="email"><br><br>
+            NIVER<input type="date" name="niver"><br><br>
+            Sexo:<br><br>
+            SIM<input type="radio" name="sexo" value="sim"><br><br>
+            NÃO<input type="radio" name="sexo" value="nao"><br><br>
+            TEM:<br><br>
+            <input type="checkbox" name="pet"> Pet<br><br>
+            <input type="checkbox" name="vicio"> Vício<br><br>
+            <input type="checkbox" name="nojo"> Nojo<br><br>
+            ESCOLHA:<br>
+            <select name="escolha">
+                <option value="morrer">Saber quando vai morrer</option>
+                <option value="comer">Só comer pizza pro resto da vida</option>
+                <option value="agua">Nunca mais pode beber água</option>
+            </select><br><br>
+            <input type="submit" value="ESCREVER"><br>
+            <a href="index.html">Volta</a>
+        </form>
+    </div>
+</body>
+</html>
+
+nome=Ameba&insta=%40peba&email=correio%40naoquero.com&niver=1989-07-17&sexo=sim&pet=on&vicio=on&escolha=morrer
