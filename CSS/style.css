@@ -63,5 +63,31 @@ ao inves, o css aplica o hover nos elementos da div.. estranho... */
 
 footer {
     text-align: center;
-    color:azure
+    color:azure;
+    margin: 50px;
+}
+
+.boxmodel {
+    margin: 0px 20px;
+    padding: 5px 0px 5px 0px;
+    border: 3px solid white;
+    display: inline-block;
+
+}
+
+.imagem {
+    height: 397px;
+    width: 298px;
+    margin: 0px 20px;
+    padding: 5px 0px 5px 0px;
+    border: 3px;
+    display: inline-block;
+}
+
+.short {
+    font-size: 20px;
+}
+
+span {
+    font-size: 2em;
 }
