@@ -1,0 +1,67 @@
+/* Selector {
+    Property : value;
+} */
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1641579281152-e5d633aa3775?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80) ;
+    background-size: cover;
+}
+
+h2 {
+    color: #ffefa1;
+    text-align: center;
+    border: 5px dotted azure;
+    cursor:not-allowed;
+}
+
+p {
+    color: #beea6c;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+
+}
+
+li {
+    list-style: armenian;
+    display: inline-block;
+    color: #c0a625;
+}
+
+.conteudo {
+    color: #e08dba;
+}
+
+.novo {
+    color: #b182c8;
+}
+
+/* Essa div não funciona com o hover... 
+ao inves, o css aplica o hover nos elementos da div.. estranho... */
+
+
+
+#caixa {
+    background-color:rgba(97, 142, 13, 0.6);
+    animation: pulse 5s infinite;
+    animation-direction: alternate;
+}
+
+
+
+@keyframes pulse {
+  0% {
+    background-color: #9dcc43;
+  }
+  100% {
+    background-color: #9b1e62;
+  }
+}
+
+#caixa :hover {
+    background-color:rgba(97, 142, 13, 0.6);
+}
+
+footer {
+    text-align: center;
+    color:azure
+}
