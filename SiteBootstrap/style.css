@@ -6,3 +6,7 @@
 .btn-danger:hover {
     background-color: #f7b31d;
 }
+
+.buffer {
+    height: 5rem;
+}
