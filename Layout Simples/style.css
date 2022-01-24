@@ -2,10 +2,7 @@
     background-color:lightslategrey;
     object-fit: cover;
     justify-self: stretch;
-    max-height: 100%;
-    max-width: 100%;
-    min-height: 100%;
-    min-width: 100%;
+    width: 100%;
     
   
 
@@ -134,6 +131,6 @@
     display:grid;
     gap: 10px;
     padding:0px;
-    margin:0px;
+    margin:10px;
     
 }
