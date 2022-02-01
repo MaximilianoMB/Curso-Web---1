@@ -26,7 +26,7 @@ letras("aluei istnouei");
 letras("eu ia li chama");
 letras("tchucuracktchucurei");
 
-UTEIS
+// UTEIS
 
 function multiplicar(a, b) {
     console.log(a*b);
@@ -35,7 +35,11 @@ function multiplicar(a, b) {
 multiplicar(5, 10);
 
 function dividir(a, b) {
-   return a+b;   
+   if (a < b) {
+    return "coco";
+   } else {
+       console.log("nao chegou");
+   }  
 }
 
-dividir(3, 5);
+console.log(dividir(3, 5));
