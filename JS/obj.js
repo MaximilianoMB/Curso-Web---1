@@ -31,3 +31,4 @@ console.log(moto[1].cortaPipa);
 usuario.peidar = function () {console.log("Prrt!")};
 
 usuario.peidar();
+usuario.peidar();
