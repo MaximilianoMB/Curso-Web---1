@@ -12,6 +12,7 @@ button.addEventListener("click", function() {
     console.log("Clicou!!");
 })
 
+
 //parte da lista
 
 
@@ -33,7 +34,7 @@ function adicionaItem() {
     //adiciona o botao delete com suas classes
     var X = document.createElement("button");
     X.appendChild(document.createTextNode("❌"));
-    X.setAttribute("class", "X");
+    X.setAttribute("class", "delete");
     //junta na tag li
     li.appendChild(X);
     //junta na lista ul
@@ -72,10 +73,17 @@ document.getElementById("lista").addEventListener("click",function(e){
 })
 
 //funcao botao delete
-// document.getElementById("lista").addEventListener("click",function(e){
-//     if(e.target && e.target.nodeName==="button"){
-//         e.parentElement.remove();
-        
-//     }
-   
-// })
+
+var del = document.getElementsByClassName("delete");
+function botaoDel (e){
+    e.target.parentElement.remove(); 
+}
+
+function deleta() {
+    
+    del[i].onclick = botaoDel;               
+}
+
+for (i=0; i<del.length; i++){
+    deleta();
+}
