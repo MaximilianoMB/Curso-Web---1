@@ -1,8 +1,7 @@
 # Curso-Web---1
  The Complete Web Developer in 2022: Zero to Mastery
 
-Dia a dia do curso com meu percurso de aprendizado.
+Daily struggles with learning.
 
-Alguns arquivos contém comentários em pontos de conflitos relevantes nos quais não consegui encontrar solução.
+Some files have comments of  relevant conflicts.
 
-Curso da Udemy.
